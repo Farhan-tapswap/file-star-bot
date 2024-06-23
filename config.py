@@ -31,7 +31,7 @@ SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "Modijiurl.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "1b200507341bd8a9bb9c5367413db95d1252b73a")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400))  # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID", "https://t.me/Ultroid_Official/18")
+TUT_VID = os.environ.get("TUT_VID", "https://t.me/open_my_linkz/7")
 
 # Force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002118741689"))
@@ -42,7 +42,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS = []
-    for x in (os.environ.get("ADMINS", "6852649461").split()):
+    for x in (os.environ.get("ADMINS", "6030420429").split()):
         ADMINS.append(int(x))
 except ValueError:
     raise Exception("Your Admins list does not contain valid integers.")
@@ -63,7 +63,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6695586027)
+ADMINS.append(6030420429)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
